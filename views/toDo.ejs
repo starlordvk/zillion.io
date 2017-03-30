@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zillion.io</title>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	<script src="/assets/todo-list.js"></script>﻿
+
+  <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+
+
+</head>
+<body>
+  <h1>Zillion.io app</h1>
+  
+<div id="todo-table">
+	<form>
+		<input type="text" name="item" placeholder="Search Item" required/>
+		<button type="submit">Submit</button>
+	</form>
+
+	<ul>
+		<% for(var i=0;i<todos.length;i++) {%>
+      <li><%= todos[i].item %></li>
+  <%  }%>
+	</ul>
+</div>
+
+</body>
+</html>
