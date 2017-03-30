@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "to do list app",
   "main": "app.js",
+  "engines": {
+    "node": "6.9.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +17,8 @@
     "express": "^4.14.1",
     "image-downloader": "^2.0.3",
     "image-filters": "^1.0.1",
-    "mongoose": "^4.8.3"
+    "images-scraper": "^2.0.11",
+    "mongoose": "^4.8.3",
+    "morgan": "^1.8.1"
   }
 }
